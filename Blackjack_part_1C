@@ -1,0 +1,8 @@
+hand_value = int(input())
+if hand_value <= 31 and hand_value >= 4:
+    if hand_value == 21:
+        print("BLACKJACK!")
+    elif hand_value > 21:
+        print("BUST.")
+else:
+    print("BAD HAND VALUE!")
